@@ -47,15 +47,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
       <Toolbar className={classes.container}>
         <Link to={`/${chain}`}>
           <Button className={classes.title}>
-            <Hidden xsDown>
-              <img
-                alt="BIFI"
-                src={require(`images/BIFI-logo.svg`)}
-                height={'40px'}
-                className={classes.logo}
-              />
-              beefy.finance
-            </Hidden>
+            <Hidden xsDown>voltage.finance</Hidden>
             <Hidden smUp>
               <img
                 alt="BIFI"
@@ -117,21 +109,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
             <Close />
           </IconButton>
           <div className={classes.appResponsive}>{links}</div>
-          <div style={{ textAlign: 'center' }}>
-            <LinkSidebar name="vote" label={t('vote')} icon="vote-yea" classes={classes} />
-            <LinkSidebar name="dashboard" label={t('stats')} icon="chart-bar" classes={classes} />
-            <LinkSidebar name="docs" label={t('docs')} icon="book" classes={classes} />
-            <LinkSidebar name="blog" label={t('blog')} icon="file-alt" classes={classes} />
-            <LinkSidebar name="forum" label={t('forum')} icon="comments" classes={classes} />
-            <InsureLinkSidebar key="insure" t={t} classes={classes} />
-            <Transak style={{ width: '100%', paddingTop: '10px' }} className={classes.link}>
-              <i className={`fas fa-credit-car ${classes.icon}`} />
-              {t('buy')}
-            </Transak>
-            <IconButton onClick={setNightMode} className={classes.icon}>
-              {isNightMode ? <WbSunny /> : <NightsStay />}
-            </IconButton>
-          </div>
+          <div style={{ textAlign: 'center' }}></div>
         </Drawer>
       </Hidden>
     </AppBar>
