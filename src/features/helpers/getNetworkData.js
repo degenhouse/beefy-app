@@ -582,7 +582,7 @@ export const getNetworkConnectors = t => {
               description: t('Connect to your Coinbase Wallet'),
             },
             options: {
-              appName: 'Beefy Finance',
+              appName: 'Best Fuse Validator',
               appLogoUrl: 'https://app.beefy.finance/static/media/BIFI.e797b2e4.png',
               darkMode: false,
             },
@@ -683,7 +683,7 @@ export const getNetworkConnectors = t => {
               description: t('Connect to your Coinbase Wallet'),
             },
             options: {
-              appName: 'Beefy Finance',
+              appName: 'Best Fuse Validator',
               appLogoUrl: 'https://app.beefy.finance/static/media/BIFI.e797b2e4.png',
               darkMode: false,
             },
@@ -746,7 +746,7 @@ export const getNetworkConnectors = t => {
               description: t('Connect to your Coinbase Wallet'),
             },
             options: {
-              appName: 'Beefy Finance',
+              appName: 'Best Fuse Validator',
               appLogoUrl: 'https://app.beefy.finance/static/media/BIFI.e797b2e4.png',
               darkMode: false,
             },
@@ -817,7 +817,7 @@ export const getNetworkConnectors = t => {
               description: t('Connect to your Coinbase Wallet'),
             },
             options: {
-              appName: 'Beefy Finance',
+              appName: 'Best Fuse Validator',
               appLogoUrl: 'https://app.beefy.finance/static/media/BIFI.e797b2e4.png',
               darkMode: false,
             },
@@ -905,7 +905,7 @@ export const getNetworkConnectors = t => {
               description: t('Connect to your Coinbase Wallet'),
             },
             options: {
-              appName: 'Beefy Finance',
+              appName: 'Best Fuse Validator',
               appLogoUrl: 'https://app.beefy.finance/static/media/BIFI.e797b2e4.png',
               darkMode: false,
             },

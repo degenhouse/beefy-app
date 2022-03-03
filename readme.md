@@ -1,4 +1,4 @@
-# Beefy Finance (\$BIFI)
+# Best Fuse Validator (\$BIFI)
 
 ## Overview
 

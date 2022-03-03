@@ -6,11 +6,11 @@ const createThemeMode = isNightMode =>
       type: isNightMode ? 'dark' : 'light',
       background: {
         default: isNightMode ? '#242332' : '#fbf9f6',
-        paper: isNightMode ? '#606077' : '#fff',
+        paper: isNightMode ? '#012018' : '#fff',
         primary: isNightMode ? '#505067' : '#FBF6F0',
         secondary: isNightMode ? '#3B3A4D' : '#F8F2EC',
         extra: isNightMode ? '#242332' : '#FBF6F0',
-        dark: isNightMode ? '#2B2A3D' : '#999',
+        dark: isNightMode ? '#012018' : '#999',
         paused: isNightMode ? '#2B2A5A' : '#FCE57E',
         retired: isNightMode ? '#d32f2f' : '#e57373',
         hover: isNightMode ? '#2B2A3D' : '#EFE6DC',
@@ -25,7 +25,7 @@ const createThemeMode = isNightMode =>
       },
       text: {
         primary: isNightMode ? '#fff' : '#000',
-        secondary: isNightMode ? '#B0B0DD' : '#00000066',
+        secondary: isNightMode ? '#ccff66' : '#00000066',
       },
     },
     overrides: {
@@ -42,7 +42,7 @@ const createThemeMode = isNightMode =>
       },
       MuiCheckbox: {
         colorPrimary: {
-          color: isNightMode ? '#fff' : '#000',
+          color: isNightMode ? '#ccff66' : '#000',
         },
         colorSecondary: {
           color: isNightMode ? '#fff' : '#000',

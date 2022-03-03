@@ -15,16 +15,7 @@ const Pastures = () => {
     setCows(new Array(n).fill(0));
   }, []);
 
-  return (
-    <div className={classes.root}>
-      <div className={classes.pastureLeft} />
-      <div className={classes.pastureRight} />
-      <div className={classes.pastureCenterBg} />
-      <div className={classes.pastureCenterFg} />
-      {cows &&
-        cows.map((_, index) => <Cow key={`cow${index}`} total={cows.length} index={index} />)}
-    </div>
-  );
+  return <div className={classes.root}></div>;
 };
 
 export default memo(Pastures);

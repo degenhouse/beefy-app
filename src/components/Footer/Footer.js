@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div className={classes.root}>
       <div className={classes.column}>
-        <div className={classes.title}>beefy.finance</div>
+        <div className={classes.title}>Best Fuse Validator</div>
         <a
           href="https://docs.degen.haus"
           target="_blank"

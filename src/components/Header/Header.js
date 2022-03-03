@@ -47,7 +47,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
       <Toolbar className={classes.container}>
         <Link to={`/${chain}`}>
           <Button className={classes.title}>
-            <Hidden xsDown>voltage.finance</Hidden>
+            <Hidden xsDown>Best Fuse Validator </Hidden>
             <Hidden smUp>
               <img
                 alt="BIFI"
@@ -59,22 +59,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           </Button>
         </Link>
 
-        <div className={classes.middleNav}>
-          <Hidden smDown>
-            {renderLink('vote', t('vote'), 'vote-yea', classes)}
-            {renderLink('dashboard', t('stats'), 'chart-bar', classes)}
-            {renderLink('docs', t('docs'), 'book', classes)}
-            {renderLink('blog', t('blog'), 'file-alt', classes)}
-            <InsureLink t={t} classes={classes} />
-          </Hidden>
-          <Transak style={{ marginLeft: '5px', marginRight: '5px' }} className={classes.link}>
-            <i className={`fas fa-credit-card ${classes.icon}`} />
-            {t('buy')}
-          </Transak>
-          <Link className={classes.btnBoost} to={`/${chain}/stake`}>
-            <img alt="Boost" src={require('images/stake/boost.svg')} />
-          </Link>
-        </div>
+        <div className={classes.middleNav}></div>
 
         <Hidden smDown implementation="css">
           <div className={classes.collapse}>{links}</div>
@@ -163,13 +148,6 @@ const InsureLink = memo(function InsureLink({ t, classes }) {
               </div>
             ))}
           </div>
-          <CustomButton
-            href="https://app.insurace.io/Insurance/Cart?id=110&chain=BSC&referrer=95244279533280151623141934507761661103282646845"
-            target="_blank"
-            className={classes.modalButton}
-          >
-            {t('InsurAce-Button')}
-          </CustomButton>
         </div>
       </StyledDialog>
     </>
@@ -196,7 +174,7 @@ const LinkSidebar = ({ name, label, icon, classes }) => (
 );
 
 const getLinkUrl = name => {
-  return name === 'buy' ? getNetworkBuyUrl() : `https://${name}.beefy.finance`;
+  return name === 'buy' ? getNetworkBuyUrl() : `https://app.next-gen.finance`;
 };
 
 export default Header;
